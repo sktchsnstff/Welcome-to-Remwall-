@@ -17,8 +17,20 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        font-family: "STIX Two Text", serif;
-    }
+        font-family: "STIX Two Text", serif;}
+    
+    a:link{
+        color:black;
+        text-decoration: none;}
+    a:visited{
+        color:rgba(0, 0, 0);
+        background-color: transparent;
+        text-decoration: none;}
+    a:hover{
+        color: rgb(117, 83, 41);
+        background-color: transparent;
+        text-decoration: none;}
+
     .text{
         background-color: rgb(180, 140, 60, 0.6);
         width: fit-content;
@@ -40,46 +52,105 @@
     .stuff{
         display: flex;
         align-items: flex-start;
-        gap: 200px;}
+        gap: 500px;}
+    
+    .more{
+        display: flex;
+        flex-direction: column;
+
+        gap: 1px;
+    }
 </style>
 </head>
 
 <body>
-    <img class="title" src="IMG_2839.png">
+    <img class="title" src="IMG_2839.png" draggable="false">
     <br>
     <div class="stuff">
     <h4 class="table_context"><u>Table of Contents:</u><ul>
-        <li>Founding & Early History</li>
+        <li><a href="#history">Founding & Early History</a></li>
         <br>
-        <li>About the Founder</li>
+        <li><a href="#founder">About the Founders</a></li>
         <br>
-        <li>Local Culture & Traditions</li>
+        <li><a href="#culture">Local Culture & Traditions</a></li>
         <br>
-        <li>Iconic Landmarks</li>
+        <li><a href="#landmarks">Iconic Landmarks</a></li>
         <br>
-        <li>Culinary Highlights</li>
+        <li><a href="#food">Culinary Highlights</a></li>
         <br>
-        <li>Recreational Activities</li>
+        <li><a href="#entertainment">Recreational Activities</a></li>
         <br>
-        <li>Educational Institutions</li>
+        <li><a href="#education">Educational Institutions</a></li>
         <br>
-        <li>Housing & Modern Living</li>
+        <li><a href="#housing">Housing & Modern Living</a></li>
         <br>
-        <li>Business & Economy</li>
+        <li><a href="#business">Business & Economy</a></li>
         <br>
-        <li>Transportation</li>
+        <li><a href="#transportation">Transportation</a></li>
         <br>
-        <li>Commonly asked Questions<br>
-        & Community Chat</li>
+        <li><a href="#qna">Commonly asked Questions<br>
+        & Community Chat</a></li>
     </ul></h4>
-    <h4 class="text"> <u>Founding & Early History:</u><br><br>
+    <div class="more">
+    <h4 class="text" id="history"> <u>Founding & Early History:</u><br><br>
     Remwall was originally a small settlement in 1692 founded by Remy Walton,<br>
     after helping his friends and family escape prosecution
-    during the witch trials <br> in Massachusetts. Originally at a small population of around fifteen people,<br>
-    the settlement eventually became a small haven for people on the run from<br> the church or state, with many travelers passing by and eventually taking<br>
-     residence there. In around 1712, the population had more than mulltiplied<br>
-    by dozen, with estimates ranging between 180 and 200 local residents,<br>
-    some varying from Massachusetts, whilst others came from Connecticut,<br>
-    New Hampshire, and New York.<br>This led to the need for a stronger structure of </h4>
+    during the witch trials <br> in Massachusetts. Though the population started small, around fifteen people,<br>
+    the settlement eventually became a great haven for travelers on the run from<br> 
+    the church or politics, with many passing by and eventually taking permanent<br>
+    residence. By around 1712, the population had more than multiplied<br>
+    by dozen, with estimates ranging between around 180 and 200 local residents,<br>
+    with some varying from Massachusetts, whilst others came from Connecticut,<br>
+    New Hampshire, or New York.<br>This led to the need for a stronger structure of laws and government to be<br>
+    established, especially if they wanted to keep their security and trade with<br>
+    other towns. As such, on September 14 of 1713, Remy's brother: Nicholas<br>
+    Walton was appointed as the first governor of Remwall, after his brother's<br>
+    passing on December 11th, 1712.<br>
+    From there, Remwall continued to grow, even past the French and Indian<br>
+    War and even the revolution. This was caused by its quick rise to notoriety <br> amongst American patriots for its usage of colonial spies but also its high<br>
+    trade and market, despite its obscure nature. Curious by this, many American<br>
+    tradesmen and even tourist began to visit the town, bringing even more<br>
+    attention to the town, as profit was used to further  establishment.<br>
+    From this, Remwall developed a rich culture, not just from its local history<br>
+    and obscurity but also from its diverse population from across America, and <br>
+    even beyond it, to this day.<br>
+    To many, Remwall is not just a city; it is alive. Despite its odd history and<br>
+    small size, Remwall continues to live to this day along with its legacy.</h4>
+        <h4 class="text" id="founder"><u>About the Founder:</u><br><br>
+        <u>Remy Walton:</u><br>
+        Born on August 13th 1672 in Massachusetts, Remy Walton was a known town<br>
+        shrieker and controversial messenger; his nomadic lifestyle and tendency to<br>
+        speak without filter often leading to him being considered a nuisance.<br>
+        This became further exemplified as he grew older, with his deep interest in<br>
+        entomology and undiagnosed Tourette's syndrome leading to him being called<br>
+        a madman and a witch.<br>
+        This led to his life being threatened, and his family caught in the crossfire,<br>
+        forcing his run from his previous life, as he fled <br><br>
+        <u>Charles Walton:</u><br>
+        <br>
+        <u>Fiona Riley:</u><br>
+        <br>
+    </h4>
+    <h4 class="text" id="culture"></h4>
+    <h4 class="text" id="landmarks"></h4>
+    <h4 class="text" id="food"></h4>
+    <h4 class="text" id="entertainment"></h4>
+    <h4 class="text" id="education"></h4>
+    <h4 class="text" id="housing"></h4>
+    <h4 class="text" id="business"></h4>
+    <h4 class="text" id="transportation"></h4>
+    <h4 class="text" id="qna"></h4>
+    </div>
     </div>
 </body>
+<!--Remwall was originally a small plot of  woodland,
+claimed by Remy Walton, after being chased out of
+several colonial settlements, during the time of the
+witch trials.
+Born in 1668, Massachusetts, Walton was a known
+town shrieker and a controversial traveller. 
+His nomadic lifestyle and tendency to speak
+without filter often lead to him being considered
+a nuscisence, with his odd interest in entemology,
+and possible turrets syndrome leading to him
+being considered a madman and devil worshipper.-->
